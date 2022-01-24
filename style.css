@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'blenda_scriptregular', sans-serif;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+
+li a:hover {
+  background-color: #292125;
+  text-decoration:none;
+  color: inherit;
+}
+
+.about_hover a {
+  text-shadow: 1px 1px white;
+}
+.about_hover a:hover {
+  background-color: #b68e02;
+  text-decoration:none;
+  color: inherit;
+}
+.fb_hover a {
+  color: #111111;
+  text-shadow: 1px 1px white;
+}
+
+.fb_hover a:hover {
+  background-color: #c20287;
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 400px;
+  height: 290px;
+  object-fit:cover;
+  border: 4px solid #51412c;
+  border-radius: 25px;
+}
+
+.item {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+  width: 260px;
+}
+
+.caption {
+  /* Make the caption a block so it occupies its own line. */
+  display: block;
+}
+
+#image1 {
+  position: relative;
+  left: 15px;
+}
+
+#image1txt {
+  position: relative;
+  left: 80px;
+}
+
+#image2 {
+  position: relative;
+  left: 213px;
+}
+
+#image2txt {
+  position: relative;
+  left: 280px;
+}
+
+#image3 {
+  position: relative;
+  left: 415px;
+}
+
+#image3txt {
+  position: relative;
+  left: 480px;
+}
+
+#image4 {
+  position: relative;
+  left: 15px;
+  top: 10px;
+}
+
+#image4txt {
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+
+#image5 {
+  position: relative;
+  left: 213px;
+  top: 10px;
+}
+
+#image5txt {
+  position: relative;
+  left: 280px;
+  top: 10px;
+}
+
+#image6 {
+  position: relative;
+  left: 415px;
+  top: 10px;
+}
+
+#image6txt {
+  position: relative;
+  left: 480px;
+  top: 10px;
+}
+
+#image7 {
+  position: relative;
+  left: 265px;
+  top: 25px;
+}
+
+#image7txt {
+  position: relative;
+  left: 325px;
+  top: 25px;
+}
+
+#image8 {
+  position: relative;
+  left: 475px;
+  top: 25px;
+}
+
+#image8txt {
+  position: relative;
+  left: 545px;
+  top: 25px;
+}
+
+#about_text {
+  margin-left: 494px;
+  font-size: 26px;
+  margin-top: 15px;
+}
+#about_img {
+  background-image: url(images/notebook.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+}
+
+#feedback_img {
+  background-image: none;
+  color:black;
+  text-shadow: none;
+}
+
+#gallery_img {
+  background-image: url(images/old_style_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery {
+  font-size: 37px;
+  margin-top: 45px;
+  margin-left: 15px;
+}
+#welcome {
+  font-family: 'blenda_scriptregular', sans-serif;
+  text-shadow: 5px 5px black;
+  font-size: 130px;
+  text-align: center;
+  margin-top: 289px;
+}
+
+#feedback {
+  font-family: 'blenda_scriptregular', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 322px;
+}
+
+#about {
+  margin-top: 40px;
+  font-size: 70px;
+  margin-right: 40px;
+  text-align: right;
+}
+
+#myphoto {
+  width:255px;
+  height:340px;
+  object-fit:cover;
+  position:absolute;
+  left:1140px;
+  bottom: 40px;
+  border: 4px solid #111111;
+}
+
+.container ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+input[type=email], select, textarea, input[type=text], select, textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#type1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: green;
+  color:white;
+  padding: 12px;
+  float: right;
+}
+
+#type1:hover {
+  background-color: #060;
+}
+
+#mbl {
+  padding: 145px;
+}
+
+#gal_space {
+    padding: 100px;
+}  
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 110px;
+}
+
+@media screen and (max-width: 768px) {
+  #welcome {
+    text-shadow: 4px 4px black;
+    font-size: 85px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 15px;
+  }
+  
+  #mbl {
+    padding: 115px;
+  }
+  li a {
+    font-size: 21px;
+  }
+  img {
+    width: 360px;
+    height: 250px;
+  }
+  #image1 {
+  position: relative;
+  left: 15px;
+  }
+  
+  #image1txt {
+    position: relative;
+    left: 60px;
+  }
+  
+  #image2 {
+    position: relative;
+    left: 15px;
+  }
+  
+  #image2txt {
+    position: relative;
+    left: 60px;
+  }
+  
+  #image3 {
+    position: relative;
+    left: 15px;
+  }
+  
+  #image3txt {
+    position: relative;
+    left: 60px;
+  }
+  
+  #image4 {
+    position: relative;
+    left: 15px;
+    top: 10px;
+  }
+  
+  #image4txt {
+    position: relative;
+    left: 60px;
+    top: 10px;
+  }
+  
+  #image5 {
+    position: relative;
+    left: 15px;
+    top: 10px;
+  }
+  
+  #image5txt {
+    position: relative;
+    left: 60px;
+    top: 10px;
+  }
+  
+  #image6 {
+    position: relative;
+    left: 15px;
+    top: 10px;
+  }
+  
+  #image6txt {
+    position: relative;
+    left: 60px;
+    top: 10px;
+  }
+  
+  #image7 {
+    position: relative;
+    left: 15px;
+    top: 25px;
+  }
+  
+  #image7txt {
+    position: relative;
+    left: 60px;
+    top: 25px;
+  }
+  
+  #image8 {
+    position: relative;
+    left: 15px;
+    top: 25px;
+  }
+  
+  #image8txt {
+    position: relative;
+    left: 60px;
+    top: 25px;
+  }
+  #about_text {
+    margin-left: 0px;
+    font-size: 26px;
+    margin-top: 0px;
+    padding: 25px;
+  }
+  #myphoto {
+    width:255px;
+    height:340px;
+    object-fit:cover;
+    position:static;
+    left: 0px;
+    bottom: 0px;
+    border: 4px solid #111111;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@font-face {
+  font-family: 'blenda_scriptregular';
+  src: url('font/blenda_script-webfont.woff2') format('woff2'),
+  url('font/blenda_script-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
